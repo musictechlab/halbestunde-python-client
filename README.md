@@ -134,13 +134,13 @@ poetry run python examples/example_usage.py
 
 ## Code quality
 ### Format the code using black
-poetry run black .
+`poetry run black .`
 
 ### Auto-fix PEP 8 issues using autopep8
-poetry run autopep8 --in-place --recursive .
+`poetry run autopep8 --in-place --recursive .`
 
 ### Check for any remaining issues with flake8
-poetry run flake8
+`poetry run flake8`
 
 ## Contributing
 
