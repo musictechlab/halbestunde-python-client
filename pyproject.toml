@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "halbestunde-python-client"
+version = "0.1.1"
+description = "Unofficial and open source Python library for interacting with the Halbestunde API"
+license = "MIT"
+authors = ["Mariusz Smenżyk <mariusz.smenzyk@bravelab.io>"]
+readme = "README.md"
+packages = [{include = "halbestunde_python_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+flask = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+flake8 = "^3.9.2"
+coverage = "^5.5"
+codecov = "^2.1.11"
+black = "^23.1a1"
+autopep8 = "1.5.7"
+click = "8.1.3"  # Ensure click is compatible with flask
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
