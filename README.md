@@ -1,0 +1,1 @@
+# halbestunde-python-client
